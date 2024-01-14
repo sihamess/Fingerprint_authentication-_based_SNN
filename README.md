@@ -1,7 +1,7 @@
 # Robust Fingerprint Verification Dataset for Siamese Networks
 
 ## Overview
-In the realm of biometric verification, `fingerprints` stand out as a unique identifier for individuals, offering a high level of security and reliability. With the advent of machine learning, particularly `Siamese networks`, the need for comprehensive and balanced datasets has become paramount. This repository delves into the development of a robust and balanced dataset, named `dataset.csv`, tailored for fingerprint verification tasks using Siamese networks, based on  the `SOCOFing dataset` [[1](https://www.kaggle.com/datasets/ruizgara/socofing)][[2](https://arxiv.org/abs/1807.10609))].
+In the realm of biometric verification, `fingerprints` stand out as a unique identifier for individuals, offering a high level of security and reliability. With the advent of machine learning, particularly `Siamese networks`, the need for comprehensive and balanced datasets has become paramount. This repository delves into the development of a robust and balanced dataset, named `dataset.csv`, tailored for fingerprint verification tasks using Siamese networks, based on  the `SOCOFing dataset` [[1](https://www.kaggle.com/datasets/ruizgara/socofing)][[2](https://arxiv.org/abs/1807.10609)].
 <p align="center">
 <img src="Samples-of-fingerprint-images-in-SOCOFing-dataset.ppm" alt="Sample fingerprints" width="900px">
 </p>
@@ -13,7 +13,7 @@ In the realm of biometric verification, `fingerprints` stand out as a unique ide
 ## Steps to generate the dataset 
 #### **1. Data Collection: The SOCOFing Dataset**
 
-The foundation of our dataset creation process is the SOCOFing dataset, a rich repository of synthetic fingerprint images. This dataset is chosen for its diversity in fingerprint patterns, alterations, and the inclusion of various labels indicating different characteristics like gender, hand, and finger type.
+The foundation of our dataset creation process is the SOCOFing dataset, a rich repository of synthetic fingerprint images. This dataset was chosen for its diversity in fingerprint patterns, alterations, and the inclusion of various labels indicating different characteristics like gender, hand, and finger type.
 
 #### **2. Generating Positive and Negative Pairs**
 
